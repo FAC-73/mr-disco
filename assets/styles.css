@@ -1,5 +1,4 @@
 /* SET AS DEFAULT FONT */
-
 * {
     font-family: Helvetica, sans-serif;
 }
@@ -13,9 +12,9 @@ html {
 /* OVERIDE BOOTSTRAP CSS LINK STYLES */
 
 a {
+    font-family: Helvetica, sans-serif, Arial;
     text-decoration: none;
-    letter-spacing: auto;
-    font-family: Helvetica, sans-serif;
+    letter-spacing: auto; 
 }
 
 /* OVERIDE BOOTSTRAP CONTAINER STYLES */
