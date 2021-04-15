@@ -1,14 +1,14 @@
-# lost-sirens
-Updated portfolio with examples from last two homework assignments and group project
+# Updated Portfolio
+Updated portfolio with examples from homework assignments and two group projects
 
-![Kay Davis Portfolio](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Homepage.png?raw=true "Kay Davis Portfolio")
+![Kay Davis Portfolio](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/Homepage.png?raw=true "Kay Davis Portfolio")
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
      <li>
-      <a href="https://fac-73.github.io/lost-sirens/">View project</a></li>
+      <a href="https://fac-73.github.io/mr-disco/">View project</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -31,9 +31,6 @@ Updated portfolio with examples from last two homework assignments and group pro
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![Kay Davis Portfolio](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/PorfolioExample2.png?raw=true "Kay Davis Portfolio")
-<br><br>
 
 **Built using Javascript, Jquery, HTML, CSS and leveraging the GitHub REST API. This application showcases my projects during my coding bootcamp on Github as well as pulls my personal information into the site through the API. A resume is also included and can be downloaded as a PDF**
 
@@ -58,7 +55,7 @@ To get a local copy up and running follow these simple steps. You can also downl
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/FAC-73/lost-sirens.git
+   git clone https://github.com/FAC-73/mr-disco.git
    ```
 
 2. Pull the latest
@@ -80,19 +77,19 @@ To get a local copy up and running follow these simple steps. You can also downl
 #### Included functionality
 1. A homepage with an introductory bio text. Text animated using CSS gradient and animations. Text color changes with a subtle effect. Scrolling down the page shows recent projects as animated PNG images, providing a more interactive and visual way to see the applications. Each section for a project includes links to the Github io page where the project is launched, and a link direct to the repo. Each project includes a detailed README. 
 
-![On load view](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Homepage.png?raw=true "on load view")
+![On load view](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/Homepage.png?raw=true "on load view")
 <br>
 
-![Project view](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Portfolio_example1.png?raw=true "project view")
+![Project view](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/Projects.png?raw=true "project view")
 <br>
 
 2. An event listener on the Resume link triggers Javascript functions that hides the html project sections, and shows resume html sections using a addClass/ remove class 'hidden' css property appended on these elements. 
 A .text jquery method replaces the text for the headline to the correct corresponding link text. 
 
-![Resume ](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Resume.png?raw=true "Resume")
+![Resume ](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/Resume.png?raw=true "Resume")
 <br>
 
-![Resume ](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/downloadableResume.png?raw=true "Resume")
+![Resume ](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/downloadableResume.png?raw=true "Resume")
 <br>
 
 3. In the resume page a link to download the CV displays a PDF version of the CV. When clicked this is displayed in a new browser tab and can be downloaded from the window.
@@ -100,7 +97,7 @@ A .text jquery method replaces the text for the headline to the correct correspo
 
 4. The profile link includes an event listener that again triggers a set of javascript functions to hide and show hidden html sections including profile and resume content using the addClass/ removeClass method. 
 
-![Profile](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/ProfilePage.png?raw=true "Profile")
+![Profile](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/ProfilePage.png?raw=true "Profile")
 <br>
 
 5. Content in the profile is fetched on page load using a javascript fetch method from the Github rest API. Sections of the profile are created and appended into html. The profile image is pulled using the data.avatar.url from the api and an img element is appended into the document. A css class is added to add a desaturated black and white effect on the photo, as well as a round circular shape using CSS border radius. Information such as name, location, bio, github profile url are all fetched from the api. E-mail was not possible to obtain from the API so that is created and appended independently from using the api. As well as linking to the LinkedIn profile.
@@ -108,10 +105,10 @@ A .text jquery method replaces the text for the headline to the correct correspo
 
 6. The layout is fully responsive and scales down to 320px, media queries are in place to adjust large font sizes as well as image sizes too. Bootstrap grid framework is leveraged for many aspects of the layout.
 
-![Responsive](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Responsive1.png?raw=true "Responsive")
+![Responsive](https://github.com/FAC-73/mr-disco/blob/main/assets/Images/Screenshots/Responsive1.png?raw=true "Responsive")
 <br>
 
-![Responsive](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Responsive2.png?raw=true "Responsive")
+![Responsive](https://github.com/FAC-73/mr-disco/blob/main/assets/Images/Screenshots/Responsive2.png?raw=true "Responsive")
 <br>
 
 
@@ -149,7 +146,7 @@ JS and Jquery is also used for hiding and showing sections of the page when swit
 
 Distributed under the MIT License. 
 
-See [LICENSE](https://github.com/FAC-73/lost-sirens/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/FAC-73/mr-disco/blob/main/LICENSE) for more information.
 
 
 
@@ -158,7 +155,7 @@ See [LICENSE](https://github.com/FAC-73/lost-sirens/blob/main/LICENSE) for more 
 
 Kay Davis
 
-Project repo link: [https://github.com/FAC-73/lost-sirens](https://github.com/FAC-73/lost-sirens)
+Project repo link: [https://github.com/FAC-73/mr-disco](https://github.com/FAC-73/mr-disco)
 <br>
-Project website: [https://fac-73.github.io/lost-sirens/](https://fac-73.github.io/lost-sirens/)
+Project website: [https://fac-73.github.io/mr-disco/](https://fac-73.github.io/mr-disco/)
 
