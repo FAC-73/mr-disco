@@ -9,8 +9,6 @@ $(document).ready(function () {
     $("#project-row2").removeClass("hidden");
     $("#project-row3").removeClass("hidden");
     $("#project-row4").removeClass("hidden");
-    $("#project-row5").removeClass("hidden");
-    $("#project-row6").removeClass("hidden");
   });
 
 
@@ -63,8 +61,6 @@ function showResume(){
   $("#project-row2").hide();
   $("#project-row3").hide();
   $("#project-row4").hide();
-  $("#project-row5").hide();
-  $("#project-row6").hide();
   $("#resume-link").css({ "color": "#ffffff", "font-weight": "500"});
   $("#work-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
   $("#contact-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
@@ -81,8 +77,6 @@ function showProfile() {
   $("#project-row2").hide();
   $("#project-row3").hide();
   $("#project-row4").hide();
-  $("#project-row5").hide();
-  $("#project-row6").hide();
   $("#contact-link").css({ "color": "#ffffff", "font-weight": "500"});
   $("#work-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
   $("#resume-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
@@ -92,15 +86,13 @@ function showProfile() {
 // show project sections
 function showWork() {
   $("#profile-section").addClass("hidden");
-  $("#line_one").text("front-end developer + UI/UX designer based in seattle. currently working on design systems @Microsoft");
+  $("#line_one").text("I'm Kay. A UI Designer by day, and a budding Front-end Developer by night.");
   $("#resume-section").addClass("hidden");
   $("#projects-title").show();
   $("#project-row1").show();
   $("#project-row2").show();
   $("#project-row3").show();
   $("#project-row4").show();
-  $("#project-row5").show();
-  $("#project-row6").show();
   $("#work-link").css({ "color": "#ffffff", "font-weight": "500"});
   $("#contact-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
   $("#resume-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
