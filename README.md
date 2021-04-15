@@ -105,10 +105,7 @@ A .text jquery method replaces the text for the headline to the correct correspo
 
 6. The layout is fully responsive and scales down to 320px, media queries are in place to adjust large font sizes as well as image sizes too. Bootstrap grid framework is leveraged for many aspects of the layout.
 
-![Responsive](https://github.com/FAC-73/mr-disco/blob/main/assets/Images/Screenshots/Responsive1.png?raw=true "Responsive")
-<br>
-
-![Responsive](https://github.com/FAC-73/mr-disco/blob/main/assets/Images/Screenshots/Responsive2.png?raw=true "Responsive")
+![Responsive](https://github.com/FAC-73/mr-disco/blob/master/assets/Images/Screenshots/Responsive1.png?raw=true"Responsive")
 <br>
 
 
