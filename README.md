@@ -137,10 +137,11 @@ A .text jquery method replaces the text for the headline to the correct correspo
 <!-- LICENSE -->
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Distributed under the MIT License. 
 
 See [LICENSE](https://github.com/FAC-73/mr-disco/blob/main/LICENSE) for more information.
-
 
 
 <!-- CONTACT -->
